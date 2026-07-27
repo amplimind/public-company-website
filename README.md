@@ -22,30 +22,8 @@ public-company-website/
 │
 └── assets/
     ├── fonts/                  # Lokale Webfonts (woff2)
-    │   ├── catamaran-latin.woff2
-    │   ├── catamaran-latin-ext.woff2
-    │   ├── comfortaa-latin.woff2
-    │   └── comfortaa-latin-ext.woff2
+    │   
     └── images/                 # Alle Bilder lokal gespeichert
-        ├── logo_break.png
-        ├── cropped-icon_512.png
-        ├── winkel_background.svg
-        ├── Winkel_white.svg
-        ├── winkel_list_item.svg
-        ├── Lauffoto_2-scaled-1.jpg     # Hero-Bild Index
-        ├── amp-camp2023.jpg            # Hero-Bild Join Us
-        ├── Adem_Tisch-scaled.jpg
-        ├── Arbeit_am_Tisch_BB_small.jpg
-        ├── Sitz_auf_Treppe-scaled.jpg
-        ├── 231017_amplimind_teamevent_6214-scaled.jpg
-        ├── DSC05317-5-scaled.jpg
-        ├── iStock-1154428258-scaled.jpg
-        ├── iStock-1169203410-scaled.jpg
-        ├── Audi_Rings_Medium_wh-RGB-1024x342.png
-        ├── logo_lufthansa_weiss.png
-        ├── logo-1.svg
-        ├── Bild.png
-        └── kununu_TopCompanyBadge_2025_RGB-1.png
 ```
 
 ---
