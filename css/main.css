@@ -8,7 +8,7 @@
      --text:    #222222
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Catamaran:wght@400;500;600;700;800&display=swap');
+@import url('fonts.css');
 
 /* ── Reset & Base ── */
 *, *::before, *::after {
@@ -433,7 +433,7 @@ img { max-width: 100%; height: auto; display: block; }
   background-color: var(--dark);
   background-image: url('../assets/images/amp-camp2023.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
 }
 .joinus-hero::before {
   content: '';
@@ -662,6 +662,8 @@ img { max-width: 100%; height: auto; display: block; }
 
   .hero-tagline { font-size: clamp(32px, 8vw, 50px); }
   .hero-tagline-box { padding: 20px 28px; }
+
+  .joinus-hero { background-position: center center; }
 
   .quote-banner-inner { grid-template-columns: 80px 1fr; gap: 32px; }
 
