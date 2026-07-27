@@ -1,4 +1,3 @@
-// nav.js – Hamburger Menu Toggle (~30 lines)
 (function () {
   var toggle = document.querySelector('.nav-toggle');
   var overlay = document.getElementById('mobile-nav');
@@ -23,15 +22,12 @@
   }
 
   toggle.addEventListener('click', openMenu);
-
   if (closeBtn) closeBtn.addEventListener('click', closeMenu);
 
-  // Close on Escape
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && overlay.classList.contains('open')) closeMenu();
   });
 
-  // Close when a nav link is clicked
   overlay.querySelectorAll('a').forEach(function (link) {
     link.addEventListener('click', closeMenu);
   });
