@@ -1,0 +1,3 @@
+# Diese Personen müssen jede Pull-Request-Änderung im Repo genehmigen (require_code_owner_reviews).
+# Nur diese 4 Accounts dürfen als Code Owner approven.
+* @SebastianBierwisch @SimonLeiss @maxizu @nachtgold
