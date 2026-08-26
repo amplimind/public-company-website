@@ -8,13 +8,10 @@ Statische HTML/CSS-Reimplementierung von [amplimind.io](https://amplimind.io). K
 
 ```
 public-company-website/
-├── index.html                  # Homepage (/)
-├── join-us/index.html          # Join Us / Karriere (/join-us/)
-├── impressum/index.html        # Impressum (/impressum/)
-├── datenschutzerklaerung/index.html  # Datenschutzerklärung (/datenschutzerklaerung/)
-├── join-us.html                # Legacy-Redirect → /join-us/
-├── impressum.html              # Legacy-Redirect → /impressum/
-├── datenschutz.html            # Legacy-Redirect → /datenschutzerklaerung/
+├── index.html                  # Homepage
+├── join-us.html                # Join Us / Karriere
+├── impressum.html              # Impressum
+├── datenschutz.html            # Datenschutzerklärung
 │
 ├── css/
 │   ├── main.css                # Komplettes Stylesheet
@@ -84,7 +81,7 @@ Sektionen in Reihenfolge:
 5. **Joint Venture** – Logo-Balken (dunkel) + Beschreibungstext (hell)
 6. **Team CTA** – 2-spaltig: Foto links, Text + Button rechts
 
-### `join-us/index.html` – Karriere (URL: `/join-us/`)
+### `join-us.html` – Karriere
 
 Sektionen in Reihenfolge:
 
@@ -95,7 +92,7 @@ Sektionen in Reihenfolge:
 5. **Benefits** – Dunkle Karte mit Foto-Header + 6 Benefit-Einträge
 6. **Meet the Team** – Team-Foto + amplimind-Logo auf dunklem Hintergrund
 
-### `impressum/index.html` (`/impressum/`) / `datenschutzerklaerung/index.html` (`/datenschutzerklaerung/`) – Rechtliche Seiten
+### `impressum.html` / `datenschutz.html` – Rechtliche Seiten
 
 - Sticky Header mit dunklem Hintergrund und Winkel-SVG-Muster
 - Weißer Content-Bereich, strukturierter Text mit `<h2>`, `<h3>`, `<ul>`
@@ -119,9 +116,7 @@ npx serve .
 
 Dann im Browser öffnen: `http://localhost:8080`
 
-> **Hinweis:** Alle internen Links und Assets verwenden absolute Pfade (z. B. `/css/main.css`),
-> passend zur Auslieferung unter der eigenen Domain `amplimind.io`. Ein lokaler HTTP-Server
-> ist daher notwendig; `file://` funktioniert nicht mehr direkt.
+> **Hinweis:** Die Seite funktioniert auch direkt als `file://`-Pfad im Browser, da alle Assets relativ referenziert sind.
 
 ---
 
