@@ -8,6 +8,8 @@ Statische HTML/CSS-Reimplementierung von [amplimind.io](https://amplimind.io). K
 
 ```
 public-company-website/
+├── CNAME                       # Custom Domain (amplimind.io) für GitHub Pages
+├── .nojekyll                   # Deaktiviert die Jekyll-Build-Pipeline (reine Static-Site)
 ├── index.html                  # Homepage (/)
 ├── join-us/index.html          # Join Us / Karriere (/join-us/)
 ├── impressum/index.html        # Impressum (/impressum/)
