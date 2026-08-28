@@ -1,6 +1,6 @@
-# amplimind – Statische Website
+# amplimind – Public Website
 
-Statische HTML/CSS-Reimplementierung von [amplimind.io](https://amplimind.io). Kein CMS, kein Framework, keine externen Abhängigkeiten zur Laufzeit.
+Statische HTML/CSS Implementierung von [amplimind.io](https://amplimind.io). Kein CMS, kein Framework, keine externen Abhängigkeiten zur Laufzeit.
 
 ---
 
@@ -71,38 +71,6 @@ public-company-website/
 | Tablet | ≤ 999px | Hamburger-Menü, 2-spaltige Grids |
 | Mobile | ≤ 689px | 1-spaltige Layouts, vereinfachte Hero |
 
----
-
-## Seiten
-
-### `index.html` – Homepage
-
-Sektionen in Reihenfolge:
-
-1. **Hero** – Vollbild (100vh), Foto-Hintergrund, transparenter Header darüber, weißer Tagline-Kasten
-2. **Quote Banner** – Full-width, dunkel (`#0a283c`), 2-spaltig mit Winkel-SVG und Zitat
-3. **Foto-Galerie** – 3 Team-Fotos auf weißem Hintergrund
-4. **About + Pillar Cards** – Einleitungstext + 4 abgerundete dunkle Karten (Human / Tech-driven / Flexible / Responsible)
-5. **Joint Venture** – Logo-Balken (dunkel) + Beschreibungstext (hell)
-6. **Team CTA** – 2-spaltig: Foto links, Text + Button rechts
-
-### `join-us/index.html` – Karriere (URL: `/join-us/`)
-
-Sektionen in Reihenfolge:
-
-1. **Hero** – Vollbild (100vh), Camp-Foto, Button "Job Portal" unten links
-2. **Quote Banner** – Identische Struktur wie Index, anderes Zitat
-3. **Wir suchen ampliminds** – Job-Portal-Link + CTA-Button
-4. **Wie wir arbeiten** – Dunkle Karte mit Foto-Header + Werteliste (grüne Bullets)
-5. **Benefits** – Dunkle Karte mit Foto-Header + 6 Benefit-Einträge
-6. **Meet the Team** – Team-Foto + amplimind-Logo auf dunklem Hintergrund
-
-### `impressum/index.html` (`/impressum/`) / `datenschutzerklaerung/index.html` (`/datenschutzerklaerung/`) – Rechtliche Seiten
-
-- Sticky Header mit dunklem Hintergrund und Winkel-SVG-Muster
-- Weißer Content-Bereich, strukturierter Text mit `<h2>`, `<h3>`, `<ul>`
-
----
 
 ## Lokale Entwicklung
 
