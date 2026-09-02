@@ -578,19 +578,33 @@ img {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 22px;
 }
 .work-values li {
-  display: flex;
-  align-items: center;
-  gap: 14px;
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  align-items: start;
+  column-gap: 14px;
+  row-gap: 4px;
+}
+
+.work-value-title {
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--white);
+}
+
+.work-value-desc {
+  grid-column: 2;
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.7);
 }
 .work-values li::before {
   content: '';
   display: block;
+  margin-top: 8px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -619,6 +633,17 @@ img {
 .joinus-cards {
   padding: 0 0 80px;
   background: var(--white);
+}
+
+/* Zwei Karten nebeneinander ab Desktop, darunter gestapelt */
+.joinus-cards .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.joinus-cards .dark-card {
+  margin-bottom: 0;
 }
 
 .meet-team {
@@ -779,6 +804,8 @@ img {
 /* Responsive */
 
 @media (max-width: 999px) {
+  .joinus-cards .container { grid-template-columns: 1fr; }
+
   :root { --header-h: 70px; }
 
   .site-logo img { height: 48px; }
